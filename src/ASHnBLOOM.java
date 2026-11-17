@@ -16,8 +16,7 @@ public class ASHnBLOOM {
 
         //CREO EL GAME LOOP
         while (gameRunning) {
-            System.out.print("\u001B[H\u001B[2J");
-            System.out.flush();
+
             //MUESTRO ESTADO DEL MUNDO (POR TURNOS)
             mostrarEstadoMundo(turn,resonance,desync,currentZone);
             //MUESTRO MENÚ DE ZONA
